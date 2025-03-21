@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="gochip-common">
+        <HintPath>..\..\..\Downloads\gochip-sdk_1.6.65 (1)\gochip-sdk_1_6_65\gochip-common.dll</HintPath>
+      </Reference>
+      <Reference Include="gochip-restconnector">
+        <HintPath>..\..\..\Downloads\gochip-sdk_1.6.65 (1)\gochip-sdk_1_6_65\gochip-restconnector.dll</HintPath>
+      </Reference>
+      <Reference Include="gochip-sdk">
+        <HintPath>..\..\..\Downloads\gochip-sdk_1.6.65 (1)\gochip-sdk_1_6_65\gochip-sdk.dll</HintPath>
+      </Reference>
+      <Reference Include="HashLib">
+        <HintPath>..\..\..\Downloads\gochip-sdk_1.6.65 (1)\gochip-sdk_1_6_65\HashLib.dll</HintPath>
+      </Reference>
+      <Reference Include="JsonSubTypes">
+        <HintPath>..\..\..\Downloads\gochip-sdk_1.6.65 (1)\gochip-sdk_1_6_65\JsonSubTypes.dll</HintPath>
+      </Reference>
+      <Reference Include="Newtonsoft.Json">
+        <HintPath>..\..\..\Downloads\gochip-sdk_1.6.65 (1)\gochip-sdk_1_6_65\Newtonsoft.Json.dll</HintPath>
+      </Reference>
+      <Reference Include="RestSharp">
+        <HintPath>..\..\..\Downloads\gochip-sdk_1.6.65 (1)\gochip-sdk_1_6_65\RestSharp.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>
