@@ -5,4 +5,5 @@
 	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=_002FUsers_002Fmystic_002FDownloads_002Fgochip_002Dsdk_005F1_002E6_002E65_0020_00281_0029_002Fgochip_002Dsdk_005F1_005F6_005F65_002FHashLib_002Edll/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=_002FUsers_002Fmystic_002FDownloads_002Fgochip_002Dsdk_005F1_002E6_002E65_0020_00281_0029_002Fgochip_002Dsdk_005F1_005F6_005F65_002FJsonSubTypes_002Edll/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=_002FUsers_002Fmystic_002FDownloads_002Fgochip_002Dsdk_005F1_002E6_002E65_0020_00281_0029_002Fgochip_002Dsdk_005F1_005F6_005F65_002FNewtonsoft_002EJson_002Edll/@EntryIndexedValue">True</s:Boolean>
-	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=_002FUsers_002Fmystic_002FDownloads_002Fgochip_002Dsdk_005F1_002E6_002E65_0020_00281_0029_002Fgochip_002Dsdk_005F1_005F6_005F65_002FRestSharp_002Edll/@EntryIndexedValue">True</s:Boolean></wpf:ResourceDictionary>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=_002FUsers_002Fmystic_002FDownloads_002Fgochip_002Dsdk_005F1_002E6_002E65_0020_00281_0029_002Fgochip_002Dsdk_005F1_005F6_005F65_002FRestSharp_002Edll/@EntryIndexedValue">True</s:Boolean>
+	</wpf:ResourceDictionary>

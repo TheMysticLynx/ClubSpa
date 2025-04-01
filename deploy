@@ -1,0 +1,9 @@
+#!/bin/bash -e
+USER=admin
+
+readonly TARGET_HOST=admin@192.168.202.131
+readonly TARGET_PATH=/home/admin/Documents/ClubSpa/
+readonly SOURCE_PATH=/Users/mystic/RiderProjects/ClubSpa/
+
+dotnet publish --runtime linux-arm64 -c Debug
+rsync -a -P ${SOURCE_PATH} ${TARGET_HOST}:${TARGET_PATH}

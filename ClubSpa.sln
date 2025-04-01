@@ -1,6 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPIO", "GPIO\GPIO.csproj", "{1467B65C-5A85-44F8-AE8E-5C8DB9E4B430}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gpio", "Gpio\Gpio.csproj", "{1467B65C-5A85-44F8-AE8E-5C8DB9E4B430}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GpioTests", "GpioTests\GpioTests.csproj", "{50C4E3BA-D359-4315-9EEF-6EABA87670E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication", "WebApplication\WebApplication.csproj", "{ABFCC1A6-3CE7-4320-940F-D5DD15FB86C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldnetApi", "WorldnetApi\WorldnetApi.csproj", "{F354C11C-E60F-4CA4-A2B7-81C1D0D9D3E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +18,17 @@ Global
 		{1467B65C-5A85-44F8-AE8E-5C8DB9E4B430}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1467B65C-5A85-44F8-AE8E-5C8DB9E4B430}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1467B65C-5A85-44F8-AE8E-5C8DB9E4B430}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50C4E3BA-D359-4315-9EEF-6EABA87670E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50C4E3BA-D359-4315-9EEF-6EABA87670E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50C4E3BA-D359-4315-9EEF-6EABA87670E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50C4E3BA-D359-4315-9EEF-6EABA87670E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABFCC1A6-3CE7-4320-940F-D5DD15FB86C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABFCC1A6-3CE7-4320-940F-D5DD15FB86C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABFCC1A6-3CE7-4320-940F-D5DD15FB86C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABFCC1A6-3CE7-4320-940F-D5DD15FB86C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F354C11C-E60F-4CA4-A2B7-81C1D0D9D3E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F354C11C-E60F-4CA4-A2B7-81C1D0D9D3E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F354C11C-E60F-4CA4-A2B7-81C1D0D9D3E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F354C11C-E60F-4CA4-A2B7-81C1D0D9D3E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
