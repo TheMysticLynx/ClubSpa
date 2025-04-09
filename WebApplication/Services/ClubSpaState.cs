@@ -1,7 +1,7 @@
-namespace ClubSpaApi.Services;
+namespace WebApplication.Services;
 
 internal class ClubSpaState
 {
-    public bool IsRunning { get; set; }
     public DateTime EndTime { get; set; }
+    public bool IsRunning { get; set; }
 }

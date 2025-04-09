@@ -1,7 +1,11 @@
+#region
+
 using System.Device.Gpio;
 using Serilog;
 
-namespace GPIO;
+#endregion
+
+namespace GPIO.Gpio;
 
 public class Gpio
 {
@@ -10,41 +14,41 @@ public class Gpio
     private readonly int _pin;
     private GpioController _controller;
 
-    public Gpio(int pin, GpioController controller)
+    public Gpio(int pin, PinMode mode, GpioController controller)
     {
         _pin = pin;
         _controller = controller;
-        controller.OpenPin(pin);
+        controller.OpenPin(pin, mode);
     }
-    
+
     ~Gpio()
     {
         _controller.ClosePin(_pin);
     }
 
-    public void WriteValue(PinValue value)
+    public PinMode GetDirection()
     {
-        _log.Information("Writing value {Value} to pin {Pin}", value, _pin);
-        _controller.Write(_pin, value);
+        var mode = _controller.GetPinMode(_pin);
+        _log.Information("Getting direction {Mode} for pin {Pin}", mode, _pin);
+        return mode;
     }
-    
+
     public PinValue ReadValue()
     {
         var value = _controller.Read(_pin);
         _log.Information("Reading value {Value} from pin {Pin}", value, _pin);
         return value;
     }
-    
+
     public void SetDirection(PinMode mode)
     {
         _log.Information("Setting direction {Mode} for pin {Pin}", mode, _pin);
         _controller.SetPinMode(_pin, mode);
     }
-    
-    public PinMode GetDirection()
+
+    public void WriteValue(PinValue value)
     {
-        var mode = _controller.GetPinMode(_pin);
-        _log.Information("Getting direction {Mode} for pin {Pin}", mode, _pin);
-        return mode;
+        _log.Information("Writing value {Value} to pin {Pin}", value, _pin);
+        _controller.Write(_pin, value);
     }
 }

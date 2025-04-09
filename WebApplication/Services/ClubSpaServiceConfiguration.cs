@@ -1,7 +1,9 @@
-namespace ClubSpaApi.Services;
+using GPIO.Devices;
+
+namespace WebApplication.Services;
 
 public class ClubSpaServiceConfiguration
 {
-    public int StartPin { get; set; }
-    public int FloatValvePin { get; set; }
+    public FloatValve FloatValve { get; set; }
+    public Relay StartRelay { get; set; }
 }
